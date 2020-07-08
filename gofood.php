@@ -185,15 +185,15 @@ echo color("green"," Format Kode 62*** \n");
          }
          }
          }else{
-         echo color("white","-] OTP SALAH");
+         echo color("white","-] OTP KLIRU");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("white","!] INPUT ULANG..\n");
+         echo color("white","!] BALENI....\n");
          goto otp;
          }
          }else{
-         echo color("white","-] NOMOR SALAH");
+         echo color("white","-] GENTI NOMER E");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("white","!] MASUKAN LAGI\n");
+         echo color("white","!] LEBOK E MENEH\n");
          goto ulang;
          }
 //  }
