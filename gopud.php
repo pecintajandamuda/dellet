@@ -1,10 +1,10 @@
 <?php
 date_default_timezone_set('Asia/Semarang');
 include "function.php";
-echo "\n\n\n\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[7m\e[95m                                               \e[0m\n";
-ulang:
-echo "\e[1m\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+echo color("red","SCRIPT GRATIS TIDAK DI JUAL \n");
+echo color("yellow"," Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("yellow"," khusus project ojo dishare  \n");
+echo color("green"," Format Kode 62*** \n");
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
