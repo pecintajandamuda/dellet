@@ -88,7 +88,7 @@ echo "\n".color("blue","-] Message: ".$message);
         echo color("yellow","▶️ Sabar Boy");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-        sleep(20);
+        sleep(18);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0607"}');
         $message = fetch_value($code1,'"message":"','"');
