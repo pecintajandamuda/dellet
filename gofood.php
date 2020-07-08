@@ -3,10 +3,10 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 ulang:
 // function change(){
-echo color("red","             SCRIPT GRATIS TIDAK DI JUAL \n");
-echo color("white","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("white","                    khusus project         \n");
-echo color("white","                  Format Kode 62*** \n");
+echo color("red","                        SCRIPT GRATIS TIDAK DI JUAL \n");
+echo color("yellow","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("yellow","                          khusus project         \n");
+echo color("green","                                Format Kode 62*** \n");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         echo color("white"," NOMOR  : ");
@@ -49,7 +49,7 @@ echo color("white","                  Format Kode 62*** \n");
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
         echo color("white","\n▬▬▬▬▬▬▬▬▬▬▬▬CLAIM VOUCHER▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("white","CLAIM A..");
+        echo "\n".color("white","CLAIM REFFERAL..");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
@@ -63,7 +63,7 @@ echo color("white","                  Format Kode 62*** \n");
         }else{
         echo "\n".color("white"," Message: ".$message);
 	gocar:
-        echo "\n".color("white"," CLAIM B.. ");
+        echo "\n".color("white"," CLAIM COBAGOFOOD0607.. ");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
@@ -77,7 +77,7 @@ echo color("white","                  Format Kode 62*** \n");
         }else{
         echo "\n".color("white"," Message: ".$message);
         gofood:
-        echo "\n".color("white"," CLAIM C..");
+        echo "\n".color("white"," CLAIM PESANGOFOOD0607..");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
