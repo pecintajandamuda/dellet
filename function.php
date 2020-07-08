@@ -20,7 +20,7 @@ $header[] = "Connection: keep-alive";
 
 $header[] = "X-User-Locale: id_ID";
 
-$header[] = "X-Location: -7.254794,112.754504";
+$header[] = "X-Location: -6.982132,110.409745";
 
 $header[] = "X-Location-Accuracy: 3.0";
 
