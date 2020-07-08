@@ -64,10 +64,10 @@ echo color("green"," Format Kode 62*** \n");
         echo "\n".color("white"," Message: ".$message);
 	gocar:
         echo "\n".color("white"," CLAIM COBAGOFOOD0607.. ");
-        echo "\n".color("white"," Please wait");
+        echo "\n".color("white"," sabar slawe detik");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(35);
+        sleep(25);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0607"}');
         $message = fetch_value($code1,'"message":"','"');
