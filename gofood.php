@@ -63,7 +63,7 @@ echo color("green"," Format Kode 62*** \n");
         }else{
         echo "\n".color("white"," Message: ".$message);
 	gocar:
-        echo "\n".color("white"," CLAIM COBAGOFOOD0607.. ");
+        echo "\n".color("blue"," CLAIM COBAGOFOOD0607.. ");
         echo "\n".color("white"," sabar slawe detik");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
@@ -77,7 +77,7 @@ echo color("green"," Format Kode 62*** \n");
         }else{
         echo "\n".color("white"," Message: ".$message);
         gofood:
-        echo "\n".color("white"," CLAIM PESANGOFOOD0607..");
+        echo "\n".color("blue"," CLAIM PESANGOFOOD0607..");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
@@ -187,13 +187,13 @@ echo color("green"," Format Kode 62*** \n");
          }else{
          echo color("white","-] OTP KLIRU");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("white","!] BALENI....\n");
+         echo color("red","!] BALENI....\n");
          goto otp;
          }
          }else{
          echo color("white","-] GENTI NOMER E");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("white","!] LEBOK E MENEH\n");
+         echo color("red","!] LEBOK E MENEH\n");
          goto ulang;
          }
 //  }
