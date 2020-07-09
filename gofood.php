@@ -48,6 +48,7 @@ echo color("green"," Format Kode 62*** \n");
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
+        echo color("white",$nama);
         echo color("white","\n▬▬▬▬▬▬▬▬▬▬▬▬CLAIM VOUCHER▬▬▬▬▬▬▬▬▬▬▬▬");
         echo "\n".color("white","CLAIM REFFERAL..");
         echo "\n".color("white"," Please wait");
