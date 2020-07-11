@@ -43,9 +43,9 @@ ulang:
         echo color("white","sudah ada\n");
         $token = getStr('"access_token":"','"',$verif);
         $uuid = getStr('"resource_owner_id":',',',$verif);
-        echo color("white","+] Your access token : ".$token."\n\n");
-        save("token.txt",$token); 
-        echo "\n".color("blue"," Nama: ".$nama." mbah ");
+       
+        echo "\n".color("yellow","  Nama: ".$nama.".");
+        echo "\n".color("yellow"," Email: ".$email.".");
         echo color("blue","\n Vocher1.");
         echo "\n".color("white","Get Code");
         echo "\n".color("white"," Tunggu");
