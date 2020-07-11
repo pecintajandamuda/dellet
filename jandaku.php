@@ -45,7 +45,7 @@ ulang:
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
-        echo color("yellow","nama kamu:...","$nama");
+        echo color("yellow","nama kamu:...",.$nama);
         echo color("blue","\n Vocher1.");
         echo "\n".color("white","Get Code");
         echo "\n".color("white"," Tunggu");
@@ -65,7 +65,7 @@ ulang:
         echo "\n".color("white"," Tunggu ");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(25);
+        sleep(20);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0607"}');
         $message = fetch_value($code1,'"message":"','"');
