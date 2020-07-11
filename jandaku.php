@@ -193,7 +193,7 @@ ulang:
          }else{
          echo color("white","Ganti.");
          echo"\n♀️\n\n";
-         echo color("red"," Masuk lagi..\n");
+         echo color("yellow"," Sudah Jadi Janda..\n");
          goto ulang;
          }
 //  }
