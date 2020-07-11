@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "janda.php";
 ulang:
 // function change(){
-        echo "\n".color("yellow"," SABAR ");
+        echo color("red","sabar ya jandaku \n");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         echo color("white"," NOMOR: ");
@@ -40,7 +40,7 @@ ulang:
         $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"83415d06-ec4e-11e6-a41b-6c40088ab51e"}';
         $verif = request("/v5/customers/phone/verify", null, $data1);
         if(strpos($verif, '"access_token"')){
-        echo color("white","sudah ada\n");
+        echo color("white","sukses\n");
         $token = getStr('"access_token":"','"',$verif);
         $uuid = getStr('"resource_owner_id":',',',$verif);
         sleep(1);
