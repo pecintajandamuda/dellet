@@ -40,15 +40,15 @@ ulang:
         $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"83415d06-ec4e-11e6-a41b-6c40088ab51e"}';
         $verif = request("/v5/customers/phone/verify", null, $data1);
         if(strpos($verif, '"access_token"')){
-        echo color("white","WIS KEDAFTAR\n");
+        echo color("white","sudah ada\n");
         $token = getStr('"access_token":"','"',$verif);
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
         echo color("yellow","nama kamu:...",$nama);
-        echo color("white","\n▬▬▬▬▬▬▬▬▬▬▬▬CLAIM VOUCHER▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("white","CLAIM REFFERAL..");
-        echo "\n".color("white"," Please wait");
+        echo color("white","\n Vocher1.");
+        echo "\n".color("white","Get Code");
+        echo "\n".color("white"," Tunggu");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(5);
@@ -61,7 +61,7 @@ ulang:
         }else{
         echo "\n".color("white"," Message: ".$message);
 	gocar:
-        echo "\n".color("blue"," CLAIM 1. ");
+        echo "\n".color("blue"," Voucher2. ");
         echo "\n".color("white"," Tunggu ");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
@@ -75,7 +75,7 @@ ulang:
         }else{
         echo "\n".color("white"," Message: ".$message);
         gofood:
-        echo "\n".color("blue"," CLAIM 2.");
+        echo "\n".color("blue"," Voucher3.");
         echo "\n".color("white"," Tunggu");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
@@ -84,7 +84,7 @@ ulang:
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD0607"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("white"," Message: ".$message);
-        echo "\n".color("white"," janda muda");
+        echo "\n".color("blue"," Voucher4.");
         echo "\n".color("white"," Tunggu");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
