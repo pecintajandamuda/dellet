@@ -45,8 +45,8 @@ ulang:
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
-        echo color("yellow","nama kamu:...",$nama);
-        echo color("white","\n Vocher1.");
+        echo color("yellow","nama kamu:...","$nama");
+        echo color("blue","\n Vocher1.");
         echo "\n".color("white","Get Code");
         echo "\n".color("white"," Tunggu");
         for($a=1;$a<=3;$a++){
