@@ -128,6 +128,19 @@ ulang:
         
         echo "\n".color("blue"," Voucher ada ".$total." : ");
         echo "\n".color("white","                  1. ".$voucher1);
+        echo "\n".color("white","                  1. ".$expired1);
+        echo "\n".color("white","                  2. ".$voucher2);
+        echo "\n".color("white","                  2. ".$expired2);
+        echo "\n".color("white","                  3. ".$voucher3);
+        echo "\n".color("white","                  3. ".$expired3);
+        echo "\n".color("white","                  3. ".$voucher3);
+        echo "\n".color("white","                  4. ".$voucher4);
+        echo "\n".color("white","                  4. ".$expired4);
+        echo "\n".color("white","                  5. ".$voucher5);
+	echo "\n".color("white","                  5. ".$expired5);
+        echo "\n".color("white","                  6. ".$voucher6);
+        echo "\n".color("white","                  6. ".$expired6);
+        echo "\n".color("white","                  1. ".$voucher1);
         echo "\n".color("white","                  2. ".$voucher2);
         echo "\n".color("white","                  3. ".$voucher3);
         echo "\n".color("white","                  4. ".$voucher4);
