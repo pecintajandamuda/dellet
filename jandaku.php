@@ -168,8 +168,8 @@ ulang:
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("white","PIN MU = 112233 ")."\n";
-         $data2 = '{"pin":"112233"}';
+         echo color("white","PIN MU = 696969 ")."\n";
+         $data2 = '{"pin":"696969"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
          $otpsetpin = trim(fgets(STDIN));
@@ -178,20 +178,20 @@ ulang:
          }else if($pilih1 == "n" || $pilih1 == "N"){
          die();
          }else{
-         echo color("white","-] GAGAL!!!\n");
+         echo color("white"," GAGAL!!!\n");
          }
          }
          }
          }else{
-         echo color("white","-] OTP KLIRU");
+         echo color("white","0TP KLIRU");
          echo"\n♀️\n\n";
-         echo color("red","!] Ulang..\n");
+         echo color("red","Ulang..\n");
          goto otp;
          }
          }else{
-         echo color("white","-] Ganti.");
+         echo color("white","Ganti.");
          echo"\n♀️\n\n";
-         echo color("red","!] Masuk lagi..\n");
+         echo color("red"," Masuk lagi..\n");
          goto ulang;
          }
 //  }
