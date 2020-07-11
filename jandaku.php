@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "janda.php";
 ulang:
 // function change(){
-
+        echo "\n".color("yellow"," SABAR ");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         echo color("white"," NOMOR: ");
@@ -43,9 +43,11 @@ ulang:
         echo color("white","sudah ada\n");
         $token = getStr('"access_token":"','"',$verif);
         $uuid = getStr('"resource_owner_id":',',',$verif);
-       
-        echo "\n".color("yellow","  Nama: ".$nama.".");
+        sleep(1);
+        echo "\n".color("yellow"," Nama : ".$nama.".");
+        sleep(1);
         echo "\n".color("yellow"," Email: ".$email."@gmail.com");
+        sleep(1);
         echo color("blue","\n Vocher1.");
         echo "\n".color("white","Get Code");
         echo "\n".color("white"," Tunggu");
