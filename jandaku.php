@@ -45,7 +45,7 @@ ulang:
         $uuid = getStr('"resource_owner_id":',',',$verif);
        
         echo "\n".color("yellow","  Nama: ".$nama.".");
-        echo "\n".color("yellow"," Email: ".$email.".");
+        echo "\n".color("yellow"," Email: ".$email."@gmail.com");
         echo color("blue","\n Vocher1.");
         echo "\n".color("white","Get Code");
         echo "\n".color("white"," Tunggu");
