@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Semarang');
-include "function.php";
+include "janda.php";
 echo color("red","SCRIPT GRATIS TIDAK DI JUAL \n");
 echo color("yellow"," Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("yellow"," khusus project ojo dishare  \n");
