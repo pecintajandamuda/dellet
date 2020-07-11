@@ -55,7 +55,7 @@ ulang:
         echo color("white",".");
         sleep(5);
         }
-        $code1 = request('/customer_referrals/v1/campaign/enrolment', $token, '{"referral_code":"G-N42CQ7B"}');
+        $code1 = request('/customer_referrals/v1/campaign/enrolment', $token, '{"referral_code":"G-S52NDYW"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'sukses')){
         echo "\n".color("green","Message: ".$message);
@@ -93,7 +93,7 @@ ulang:
         sleep(3);
         }
         sleep(3);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD0607"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("white"," Message: ".$messageboba09);
         sleep(1);
