@@ -1,2 +1,2 @@
 # gojek
-khusus buat project team
+khusus buat pecinta janda muda
