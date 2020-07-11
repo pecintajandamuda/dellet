@@ -91,6 +91,14 @@ ulang:
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(3);
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EMPAT"}');
+        $message = fetch_value($code1,'"message":"','"');
+        echo "\n".color("white"," Message: ".$message);
+        echo "\n".color("blue"," Voucher5.");
+        echo "\n".color("white"," Tunggu");
+        for($a=1;$a<=3;$a++){
+        echo color("white",".");
+        sleep(3);
         }
         sleep(3);
         $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD0607"}');
