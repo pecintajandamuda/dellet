@@ -33,9 +33,9 @@ ulang:
         $register = request("/v5/customers", null, $data);
         if(strpos($register, '"otp_token"')){
         $otptoken = getStr('"otp_token":"','"',$register);
-        echo color("white"," minta otp")."\n";
+        echo color("yellow"," minta otp")."\n";
         otp:
-        echo color("white"," OTP: ");
+        echo color("white"," OTP  : ");
         $otp = trim(fgets(STDIN));
         $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"83415d06-ec4e-11e6-a41b-6c40088ab51e"}';
         $verif = request("/v5/customers/phone/verify", null, $data1);
@@ -62,7 +62,7 @@ ulang:
         echo "\n".color("white"," Message: ".$message);
 	gocar:
         echo "\n".color("blue"," CLAIM 1. ");
-        echo "\n".color("white"," Yunggu ");
+        echo "\n".color("white"," Tunggu ");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(25);
