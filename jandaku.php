@@ -127,7 +127,7 @@ ulang:
         $expired13 = getStr1('"expiry_date":"','"',$cekvoucher,'13');
         
         echo "\n".color("blue"," Voucher ada ".$total." : ");
-        echo "\n".color("white","                  1. ".$voucher1,.$expired1);
+        echo "\n".color("white","                  1. ".$voucher1,".$expired1);
         echo "\n".color("white","                  2. ".$voucher2);
         echo "\n".color("white","                  3. ".$voucher3);
         echo "\n".color("white","                  4. ".$voucher4);
