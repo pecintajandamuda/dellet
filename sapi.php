@@ -1,6 +1,6 @@
 <?php
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://mall.shopee.co.id/api/v2/item/get?itemid=3531481147&shopid=83382147");
+curl_setopt($ch, CURLOPT_URL, "https://mall.shopee.co.id/api/v2/item/get?itemid=6431382599&shopid=83382147");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
 curl_setopt($ch, CURLOPT_ENCODING, 'gzip, deflate');
