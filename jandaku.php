@@ -48,8 +48,8 @@ ulang:
         sleep(1);
         echo "\n".color("yellow"," Email: ".$email."@gmail.com");
         sleep(1);
-        echo color("blue","\n Vocher1.");
-        echo "\n".color("white","Get Code");
+        echo color("white","\n Get code..");
+        echo "\n".color("blue","Voucher1");
         echo "\n".color("white"," Tunggu");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
@@ -200,13 +200,20 @@ ulang:
          }
          }else{
          echo color("white","0TP KLIRU");
-         echo"\n♀️\n\n";
+         echo"\n🌒🌓🌔🌕🌖🌗🌘
+🌙❤❤🌙❤❤🌙
+❤💓💓❤💓💓❤
+❤💓💓💓💓💓❤
+🌙❤💓💓💓❤🌙
+🌙🌙❤💓❤🌙🌙
+🌙🌙🌙❤🌙🌙🌙
+🌒🌓🌔🌕🌖🌗🌘\n";
          echo color("red","Ulang..\n");
          goto otp;
          }
          }else{
          echo color("white","Ganti.");
-         echo"\n♀️\n\n";
+         echo"\n♀️\n";
          echo color("yellow"," Sudah Jadi Janda..\n");
          goto ulang;
          }
