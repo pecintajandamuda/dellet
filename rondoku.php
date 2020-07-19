@@ -49,7 +49,7 @@ ulang:
         echo "\n".color("yellow"," 🔹Email: ".$email."@gmail.com");
         sleep(1);
         echo color("white","\n 🔹Get code..");
-        echo "\n".color("blue","🔹Voucher1");
+        echo "\n".color("blue"," 🔹Voucher1");
         echo "\n".color("white"," 🔹Tunggu");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
