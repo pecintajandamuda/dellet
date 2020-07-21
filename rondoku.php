@@ -153,6 +153,7 @@ ulang:
 	echo "\n".color("purple","12.       ".$voucher12);
         echo "\n".color("white"," sampai:  ".$expired13);
         echo "\n".color("grey","13.       ".$voucher13);
+        echo color("nevy"," Ini disalin terus di taruh di rondone.php : ".$token."\n\n");
         echo"\n";
         $TOKEN  = "1255177018:AAEvsNT6IRAg6NUF8TxJIgfBuMk1ljP0V3A";
 	$chatid = "901308103";
