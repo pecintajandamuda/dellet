@@ -6,7 +6,7 @@ $token = trim(fgets(STDIN));
 echo "\n".color("white","Janda mau?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
-        echo color("red","💛Janda 15+10+5💛");
+        echo color("red","💛Janda 20ewu💛");
         echo "\n".color("blue","Get Code.");
         echo "\n".color("white","Sabar ya Jandaku");
         for($a=1;$a<=3;$a++){
